@@ -17,8 +17,8 @@ namespace HelloASPDotNET.Controllers
             return Content(html, "text/html");
         }
 
-        [HttpPost]
-        [Route("/helloworld/welcome")]
+        [HttpGet("welcome/{name?}")]
+        [HttpPost("welcom")]
         public IActionResult Welcome(string name = "World")
         {
             return Content("<h1>Welcome to my app, " + name + "!</h1>", "text/html");
