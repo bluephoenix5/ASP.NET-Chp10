@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace HelloASPDotNET.Controllers
 {
-    [Route("/helloworld")]
     public class HelloController : Controller
     {
         [HttpGet]
         public IActionResult Index()
         {
-            string html = "<form method= 'post' action= '/helloworld/language/'>" + 
+            string html = "<form method= 'post' action= '/hello'>" + 
                 "<input type= 'text' name= 'name' />" +  
                 "<select name='language' id='language'> <option value=''> Choose a language </option> <option value='English'> English </option> <option value='German'> German </option> <option value='French'> French </option> <option value='Italian'> Italian </option> <option value='Swedish'> Swedish </option>" + 
                 "</select>" + 
@@ -22,8 +21,8 @@ namespace HelloASPDotNET.Controllers
             return Content(html, "text/html");
         }
 
-        [HttpGet("welcome/{name?}")]
-        [HttpPost("welcome")]
+        [HttpPost]
+        [Route("/hello")]
         public IActionResult Welcome(string name = "World")
         {
             return Content("<h1>Welcome to my app, " + name + "!</h1>", "text/html");
