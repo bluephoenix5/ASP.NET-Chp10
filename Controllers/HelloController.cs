@@ -13,7 +13,7 @@ namespace HelloASPDotNET.Controllers
         {
             string html = "<form method= 'post' action= '/hello'>" + 
                 "<input type= 'text' name= 'name' />" +  
-                "<select name='language' id='language'> <option value=''> Choose a language </option> <option value='english'> English </option> <option value='german'> German </option> <option value='french'> French </option> <option value='italian'> Italian </option> <option value='swedish'> Swedish </option>" + 
+                "<select name='language' id='language'> <option value=''> Choose a language </option> <option value='English'> English </option> <option value='German'> German </option> <option value='French'> French </option> <option value='Italian'> Italian </option> <option value='Swedish'> Swedish </option>" + 
                 "</select>" + 
                 "<input type= 'submit' value= 'Greet Me!' />" + 
                 "</form>";
