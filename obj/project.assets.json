@@ -6232,19 +6232,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mlord\\.nuget\\packages\\": {}
+    "C:\\Users\\Mia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\HelloASPDotNET\\HelloASPDotNET.csproj",
+      "projectUniqueName": "C:\\Users\\Mia\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\ASP.NET-Chp10\\HelloASPDotNET.csproj",
       "projectName": "HelloASPDotNET",
-      "projectPath": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\HelloASPDotNET\\HelloASPDotNET.csproj",
-      "packagesPath": "C:\\Users\\mlord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\HelloASPDotNET\\obj\\",
+      "projectPath": "C:\\Users\\Mia\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\ASP.NET-Chp10\\HelloASPDotNET.csproj",
+      "packagesPath": "C:\\Users\\Mia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mia\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\ASP.NET-Chp10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
